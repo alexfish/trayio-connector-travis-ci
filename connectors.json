@@ -1,0 +1,39 @@
+[
+  {
+    "name": "travis-ci",
+    "title": "Travis CI",
+    "description": "Talk to Travis CI",
+    "version": "1.0",
+    "tags": [
+      "service"
+    ],
+    "icon": {
+      "type": "url",
+      "value": "//s3.amazonaws.com/images.tray.io/static/icons/placeholder.png"
+    },
+    "messages": [
+      {
+        "name": "sample_message",
+        "title": "Sample message",
+        "description": "Just a sample message.",
+        "input_schema": {
+          "type": "object",
+          "properties": {},
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "required": [],
+          "advanced": [],
+          "additionalProperties": false
+        },
+        "output_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "result": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    ]
+  }
+]
